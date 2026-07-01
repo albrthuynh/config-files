@@ -1,5 +1,5 @@
 # Why does this exist?
-Albert (me) is a nerd, and likes using tools to make his developer experience not use the mouse as much as possible...
+Albert (me) is a nerd, and likes using tools to make his developer experience not use the mouse as much as possible. This is his own personal configuration files that I use to make my developer experience as pleasant as possible.
 
 # Directions for set up
 For the tmux config, make sure that you have tmux installed. `brew install tmux`
