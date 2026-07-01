@@ -7,3 +7,16 @@ And place the tmux file inside `~/.tmux.conf`
 
 For Aerospace (MacOS) make sure you have Aerospace `brew install --cask nikitabobko/tap/aerospace`
 And place the aerospace file inside `~/.aerospace.toml`
+For some reason it works with version `0.20.3` and not the most up to date one yet
+
+Command to do that
+```
+osascript -e 'quit app "AeroSpace"'
+brew uninstall --cask aerospace
+brew install --cask nikitabobko/tap/aerospace@0.20.3
+open -a AeroSpace
+
+Verify:
+
+aerospace --version
+```
